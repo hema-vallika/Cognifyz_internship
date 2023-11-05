@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(27,31,34,0.85);
+}
+h1{
+    font-size:2.1rem ;
+    line-height: 1.4;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: azure;
+    margin-top: 5px;
+}
+.maindiv{
+    width: 70%;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url(nature1.jpg);
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px white;
+    animation:slider 20s infinite linear;
+}
+@keyframes slider {
+    0%{
+        background-image: url(nature1.jpg);
+    }
+    14%{
+        background-image: url(nature2.jpg);
+    }
+    28%{
+        background-image: url(nature3.jpg);
+    }
+    42%{
+        background-image: url(nature4.jpg);
+    }
+    60%{
+        background-image: url(nature5.jpg);
+    }
+    70%{
+        background-image: url(nature6.jpeg);
+    }
+    80%{
+        background-image: url(nature7.jpg);
+    }
+    90%{
+        background-image: url(nature8.jpg);
+    }
+
+    
+}

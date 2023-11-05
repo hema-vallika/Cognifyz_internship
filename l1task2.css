@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding-left: 0;
+    font-family: sans-serif;
+}
+.container{
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+
+}
+.navbar{
+    height:12%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(30, 0, 255);
+
+}
+
+.logo{
+    width:150px;
+    height: 100px;
+    cursor: pointer;
+
+}
+h2{
+    margin-left: 15px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    padding-right: 15px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+.form-container{
+    /* padding: 10px; */
+    border-radius: 8px;
+    margin: auto 23%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 300;
+}
+input{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.container1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(45%,1fr));
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(45%,1fr));
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: rgb(30,0,255);
+    color: white;
+    padding: 14px 28px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(30, 0, 255) ;
+    letter-spacing: 1px;
+  }
+  .btn:hover{
+    background-color: #0ebfdb;
+  }
+  h1{
+    color: rgb(30, 0, 255);
+    font-weight: 600;
+    font-size: 30px;
+    padding-left: 30px;
+
+  }
+  .btn1{
+    display: block;
+    border: none;
+    background-color: rgb(30,0,255);
+   width: 20%;
+   border: 2px solid #fff;
+   box-shadow: 0 0 10px rgb(30, 0, 255) ;
+   height: 30px;
+   color: azure;
+   font-size: 16px;
+   font-weight: 300;
+   
+
+  }
+  #result{
+    margin-top: 20px;
+    padding-left: 15px;
+    border: 2px solid blue;
+    width: 25%;
+    box-shadow: 0 0 10px rgb(30, 0, 255) ;
+    height: 25px;
+   
+  }
+ 
